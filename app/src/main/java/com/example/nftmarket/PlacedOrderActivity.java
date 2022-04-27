@@ -1,4 +1,4 @@
-package com.example.mygroceryappstore.activities;
+package com.example.nftmarket.activities;
 
 import android.view.View;
 import android.view.ViewGroup;
