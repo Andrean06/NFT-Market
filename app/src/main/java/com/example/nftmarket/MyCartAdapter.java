@@ -1,4 +1,4 @@
-package com.example.mygroceryappstore.adapters;
+package com.example.nftmarket;
 
 import android.content.Context;
 import android.view.LayoutInflater;
