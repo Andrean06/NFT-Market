@@ -54,7 +54,9 @@ public class MyCartsFragment extends Fragment {
     buyNow.setOnClickListener(new View.OnClickListener()  {
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(getContext(),)
+            Intent intent = new Intent(getContext(), PlacedOrderActivity.class);
+            intent.putExtra(name:"ItemList", (serializable) cartModelList);
+            startActivity(intent);
         }
     });    
         
