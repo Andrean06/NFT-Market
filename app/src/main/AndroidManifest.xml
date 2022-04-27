@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NFTMarket">
         <activity
+            android:name=".activities.ViewAllActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.HomeActivity"
             android:exported="false" />
         <activity
