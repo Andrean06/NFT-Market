@@ -1,4 +1,4 @@
-package com.example.nftmarket;
+package com.example.nftmarket.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
