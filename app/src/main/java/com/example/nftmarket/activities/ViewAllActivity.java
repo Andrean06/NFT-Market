@@ -7,6 +7,8 @@ import android.os.Bundle;
 import com.example.nftmarket.R;
 
 public class ViewAllActivity extends AppCompatActivity {
+    
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
