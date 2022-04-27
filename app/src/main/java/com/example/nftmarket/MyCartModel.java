@@ -1,4 +1,4 @@
-package com.example.mygroceryappstore.models;
+package com.example.nftmarket;
 
 public class MyCartModel {
 
