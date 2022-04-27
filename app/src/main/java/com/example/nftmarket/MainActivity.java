@@ -41,7 +41,27 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-    }
+        
+        View headerView = NavigationView.getHeaderView( index: 0);
+        TextView headerName = headerView.findViewById(R.id.nav_header_name);
+        TextView headerEmail = headerView.findViewById(R.id.nav_header_email);
+        CircleImageView headerImg = headerView.findViewById(R.id.nav_header_img);
+        
+        database.getReference().child("Users").child(FirebaseAuth.getInstance().getUid())
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        UserModel userModel = snapshot.getValue(UserModel.class);
+                        
+                        headerName.setText(userModel.getName());
+                        headerEmail.setText(userModel.getEmail());
+                        Glide.with( activity: MainActivity.this).load(userModel.getProfileImg()).into(profileImg);
+                    }
+                    
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+                        
+                    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
