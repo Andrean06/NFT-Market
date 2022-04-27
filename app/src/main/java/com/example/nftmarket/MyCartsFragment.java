@@ -50,7 +50,13 @@ public class MyCartsFragment extends Fragment {
                     }
                 }
         }
-    })
+    });
+    buyNow.setOnClickListener(new View.OnClickListener()  {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(getContext(),)
+        }
+    });    
         
         return root;
     }
