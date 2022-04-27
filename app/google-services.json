@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780685165364",
+    "firebase_url": "https://nft-market-64e44-default-rtdb.firebaseio.com",
+    "project_id": "nft-market-64e44",
+    "storage_bucket": "nft-market-64e44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780685165364:android:fe520899588a4d05a35b61",
+        "android_client_info": {
+          "package_name": "com.example.nftmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780685165364-t3c6p5vkhuq7087885ncbagh3mn4plss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ze4T0SS8aboyr5J1rv1TJFDIu6QbH_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780685165364-t3c6p5vkhuq7087885ncbagh3mn4plss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
