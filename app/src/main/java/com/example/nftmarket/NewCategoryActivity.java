@@ -1,4 +1,4 @@
-package com.example.nftmarket;
+package com.example.nftmarket.activities;
 
 import android.view.View;
 import android.view.ViewGroup;
