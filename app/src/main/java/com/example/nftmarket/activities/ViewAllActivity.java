@@ -8,6 +8,11 @@ import com.example.nftmarket.R;
 
 public class ViewAllActivity extends AppCompatActivity {
     
+    FirebaseFireStore firestore;
+    RecyclerView recyclerView;
+    ViewAllAdapter viewAllAdapter;
+    List<ViewAllModel> viewAllModelList;
+    Toolbar toolbar;
     ProgressBar progressBar;
 
     @Override
