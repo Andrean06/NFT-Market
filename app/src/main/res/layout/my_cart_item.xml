@@ -14,12 +14,11 @@
 	android:padding="8dp"
 	android:orientation="vertical">
 
-	<linearLayout
+	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="2">
-		
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -37,39 +36,39 @@
 			android:text="Product Name"
 			android:textSize="16sp"
 			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
-		<linearLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal"
-		android:weightSum="2">
-		
-		<TextView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:text="Product Name"
-			android:textSize="16sp"
-			android:fontFamily="@font/alice"/>
 
-		<TextView
-			android:id="@+id/product_price"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:textStyle="bold"
-			android:text="Product Price"
-			android:textSize="16sp"
-			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
-		<linearLayout
+	</LinearLayout>
+	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="2">
-		
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="Product Name"
+		android:textSize="16sp"
+		android:fontFamily="@font/alice"/>
+
+	<TextView
+		android:id="@+id/product_price"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textStyle="bold"
+		android:text="Product Price"
+		android:textSize="16sp"
+		android:fontFamily="@font/alice"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -87,14 +86,14 @@
 			android:text="Current Date"
 			android:textSize="16sp"
 			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
-	<linearLayout
+
+	</LinearLayout>
+	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="2">
-		
+
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -112,14 +111,14 @@
 			android:text="Current Time"
 			android:textSize="16sp"
 			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
-		<linearLayout
+
+	</LinearLayout>
+	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="2">
-		
+
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -137,14 +136,14 @@
 			android:text="Total Price"
 			android:textSize="16sp"
 			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
-		<linearLayout
+
+	</LinearLayout>
+	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
 		android:weightSum="2">
-		
+
 		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -162,9 +161,9 @@
 			android:text="Total Quantity"
 			android:textSize="16sp"
 			android:fontFamily="@font/alice"/>
-			
-		</LinearLayout>
 	</LinearLayout>
+
+</LinearLayout>
 	
 </androidx.cardview.widget.CardView>
 			
